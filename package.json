@@ -1,6 +1,6 @@
 {
 	"name": "chardin.ts",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Simple overlay instructions for your apps.",
 	"main": "dist/index.js",
 	"types": "dist/chardin.d.ts",
