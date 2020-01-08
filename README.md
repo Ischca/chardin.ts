@@ -1,5 +1,7 @@
 # Chardin.js
 
+[![npm version](https://badge.fury.io/js/chardin.ts.svg)](https://badge.fury.io/js/chardin.ts)
+
 **Simple overlay instructions for your apps.**
 
 [Check out a demo](http://heelhook.github.com/chardin.js/).
