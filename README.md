@@ -41,7 +41,7 @@ Once you have your elements ready you can show instructions running
 import {Chardin} from 'chardin.ts';
 import 'chardin.ts/chardinjs.scss';
 
-let chardin = new Chardin(document.querySelector('body'), 'au-target-id');
+let chardin = new Chardin(document.querySelector('body'));
 chardin.start();
 ```
 
@@ -49,14 +49,14 @@ If you would rather run ChardinJs confined to a particular container (instead of
 change `body` to some other selector.
 
 ```typescript
-let chardin = new Chardin(document.querySelector('.container'), 'au-target-id');
+let chardin = new Chardin(document.querySelector('.container'));
 chardin.start();
 ```
 
 You may also refresh instructions overlay any time to reflect whatever changes happened to the underlying page elements since the instructions overlay has been displayed.
 
 ```typescript
-let chardin = new Chardin(document.querySelector('body'), 'au-target-id');
+let chardin = new Chardin(document.querySelector('body'));
 chardin.start();
 ...
 chardin.refresh();
