@@ -1,0 +1,30 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"target": "es5",
+		"module": "esnext",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"sourceRoot": "src",
+		"rootDir": "src",
+		"outDir": "dist",
+		"sourceMap": true,
+		"inlineSources": true,
+		"allowJs": true,
+		"baseUrl": "src",
+		"skipLibCheck": true,
+		"declaration": true,
+		"pretty": true,
+		"lib": [
+			"es2017",
+			"dom"
+		]
+	},
+	"include": [
+		"./src/**/*.ts"
+	],
+	"atom": {
+		"rewriteTsconfig": false
+	}
+}
