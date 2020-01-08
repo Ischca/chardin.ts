@@ -1,14 +1,16 @@
 {
 	"name": "chardin.ts",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Simple overlay instructions for your apps.",
 	"main": "dist/index.js",
+	"types": "dist/chardin.d.ts",
 	"directories": {
 		"example": "example"
 	},
 	"scripts": {
 		"tsc": "tsc",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "tsc"
 	},
 	"files": [
 		"dist/"
