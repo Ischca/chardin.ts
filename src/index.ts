@@ -1,1 +1,1 @@
-export {Chardin} from "chardin";
+export {Chardin} from "./chardin";
