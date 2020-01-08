@@ -1,6 +1,6 @@
 {
 	"name": "chardin.ts",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Simple overlay instructions for your apps.",
 	"main": "dist/index.js",
 	"types": "dist/chardin.d.ts",
@@ -13,7 +13,8 @@
 		"prepare": "tsc"
 	},
 	"files": [
-		"dist/"
+		"dist/",
+		"chardinjs.scss"
 	],
 	"repository": {
 		"type": "git",
