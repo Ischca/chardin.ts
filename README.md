@@ -39,6 +39,7 @@ Once you have your elements ready you can show instructions running
 
 ```typescript
 import {Chardin} from 'chardin.ts';
+import 'chardin.ts/chardinjs.scss';
 
 let chardin = new Chardin(document.querySelector('body'), 'au-target-id');
 chardin.start();
