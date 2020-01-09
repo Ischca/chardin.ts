@@ -4,7 +4,7 @@
 
 **Simple overlay instructions for your apps.**
 
-[~~Check out a demo~~](http://ischca.github.com/chardin.ts/).
+[~~Check out a demo~~](https://ischca.github.io/chardin.ts/).
 
 Chardin.ts is a restructured version of the jQuery plugin [Chardin.js](https://github.com/heelhook/chardin.js) with typescript.
 There are no dependencies.
